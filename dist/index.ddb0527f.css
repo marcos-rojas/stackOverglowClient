@@ -1,0 +1,176 @@
+.overglow--navbar {
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+    align-content  : center;
+    padding-top    : 15px;
+    border-top     : 5px solid orange;
+    flex-wrap: wrap;
+}
+
+.overglow--stack {
+    display        : flex;
+    align-items    : center;
+    list-style-type: none;
+    margin-bottom  : auto;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding-left: 1rem;
+}
+
+.nav--title {
+    padding-left: 20px;
+}
+
+.form-control {
+    min-width: 100px;
+}
+
+.portada--section {
+    height          : 150px;
+    width           : 100vw;
+    background      : url("fondoPortada.a21715f9.jpg");
+    background-size : contain;
+    background-color: rgba(0, 0, 0, .1);
+    margin-top      : 2rem;
+    font-size       : 4rem;
+    color           : white;
+    text-shadow     : 1px 1px black;
+    text-align      : center;
+}
+
+.newquestion--nav {
+    display        : flex;
+    justify-content: space-around;
+    box-shadow     : 0 0 2px rgba(0, 0, 0, .6);
+    padding        : 10px;
+    width          : 80%;
+    margin         : 0 auto;
+}
+
+.newquestion--btn, .custom--btn {
+    text-decoration: none;
+    color          : green;
+    border         : 1px solid green;
+}
+
+.newquestion--btn:hover, .custom--btn:hover {
+    background-color: green;
+    color           : white;
+    box-shadow      : 0 0 5px green;
+}
+
+.question--card {
+    text-align: center;
+    padding: 10px;
+}
+
+.question--title {
+    font-size      : 1.5rem;
+    text-decoration: none;
+}
+
+.question--detail-title {
+    font-size: 2rem;
+}
+
+.question--body {
+    font-size      : 1.5rem;
+    text-decoration: none;
+    margin-bottom  : 1rem;
+    box-shadow     : 1px 1px 4px blueviolet;
+}
+
+.question--title:hover {
+    color: blue;
+}
+
+.question--stats {
+    display        : flex;
+    justify-content: space-around;
+}
+
+.complete--question--section {
+    padding: 2rem;
+}
+
+.author--name {
+    color     : white;
+    background: green;
+}
+
+.answer--counter {
+    color     : white;
+    background: blueviolet;
+}
+
+.question--section {
+    padding-bottom: 1rem;
+}
+
+.comments--section{
+    margin-left: 2rem;
+}
+
+.comment--card {
+    margin : 2px;
+    padding: .5rem;
+    margin-bottom: 10px;
+    box-shadow:0 0 3px rgba(0, 0, 0, .5);
+    text-align: center;
+    vertical-align: center;
+}
+
+.favorite--comment {
+    background-color: turquoise;
+}
+
+.comments--divider{
+    border-bottom: 1px solid black;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1000px) {
+    .portada--section {
+        font-size: 1.6rem;
+    }
+}
+
+.section{
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.home--section{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+.logeate--billboard{
+    font-size: 1.2rem;
+    color: purple;
+    text-align: center;
+    padding: 2px;
+    line-height: 20px;
+    text-decoration: underline wavy violet;
+}
+.section--404{
+    background: url("gif-404.6ea5a6ab.gif");
+    background-size: contain;
+    height: 80vh;
+}
+.form--section{
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 2px black;
+}
+.ask--title{
+    display: flex;
+    flex-direction: column;
+}
+/*# sourceMappingURL=index.ddb0527f.css.map */

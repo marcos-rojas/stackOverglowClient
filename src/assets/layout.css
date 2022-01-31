@@ -1,0 +1,36 @@
+.section{
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.home--section{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.logeate--billboard{
+    font-size: 1.2rem;
+    color: purple;
+    text-align: center;
+    padding: 2px;
+    line-height: 20px;
+    text-decoration: underline wavy violet;
+}
+.section--404{
+    background: url('../../public/gif-404.gif');
+    background-size: contain;
+    height: 80vh;
+}
+.form--section{
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 2px black;
+}
+.ask--title{
+    display: flex;
+    flex-direction: column;
+}
