@@ -46,6 +46,7 @@ Leave a question (logged)
 - CSS custom properties
 - React JS
 - Dependencies: parcel, react-router-dom, etc
+- A must that I couldnt work with yet: Docker-compose
 - Future dependencies: Eslint, Prettier, MUI
 
 ### Intallation
